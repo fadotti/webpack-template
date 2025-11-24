@@ -14,7 +14,7 @@ How to use this template:
   "build": "webpack --config webpack.prod.js",
   "dev": "webpack serve --config webpack.dev.js",
   "deploy": "git subtree push --prefix dist origin gh-pages",
-  "setup": "npm install --save-dev webpack webpack-cli && npm install --save-dev html-webpack-plugin && npm install --save-dev css-loader && npm install --save-dev html-loader && npm install --save-dev webpack-dev-server && npm install css-minimizer-webpack-plugin --save-dev && npm install --save-dev mini-css-extract-plugin"
+  "setup": "npm install --save-dev webpack webpack-cli && npm install --save-dev html-webpack-plugin && npm install --save-dev style-loader css-loader && npm install --save-dev html-loader && npm install --save-dev webpack-dev-server && npm install css-minimizer-webpack-plugin --save-dev && npm install --save-dev mini-css-extract-plugin"
 },
 
 ```
